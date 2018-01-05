@@ -252,6 +252,7 @@ function drawAllCards(){
     var column = document.createElement('div');
     column.className = 'taskColumn';
     column.id = type.id;
+    column.style.width = (95 / listTypes.length)+'vw';
 
     var columnHeader = document.createElement('div');
     columnHeader.className = 'headerTitle';

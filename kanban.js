@@ -1,3 +1,5 @@
+console.log('Loaded JS');
+
 var listTypes = [
                 {id:'toDo',
                  title:'To Do',
@@ -328,3 +330,4 @@ function formSetup(){
 
 formSetup()
 drawAllCards()
+console.log('Finished JS');

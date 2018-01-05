@@ -1,0 +1,62 @@
+.taskColumn{
+  border: 1px solid #999999;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  vertical-align: text-top;
+  min-height: 45vh;
+
+}
+
+.card{
+  border: 1px solid #999999;
+  text-align: center;
+  margin: 3px;
+  background-color: LIGHTSTEELBLUE;
+  color: MEDIUMBLUE;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.cardTitle{
+  background: yellow;  
+  width: 100%;
+  font-weight: bold;
+  color: MIDNIGHTBLUE;
+  padding-top: 10px;
+  padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.headerTitle{
+  text-align: center;
+  text-Transform: uppercase;
+  font-Size: large;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color:black;
+  
+  border-radius: 5px;
+}
+
+input {
+  display: block;
+  padding: 2px;
+  margin: 2px;
+}
+
+.moveTaskButton {
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  background-color: transparent;
+  border: 0;
+}
+
+body {
+  background-color: gray;
+  font-family: arial;
+}

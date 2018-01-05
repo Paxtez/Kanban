@@ -1,5 +1,3 @@
-console.log('Loaded JS');
-
 var listTypes = [
                 {id:'toDo',
                  title:'To Do',
@@ -238,7 +236,7 @@ function handleSubmit(event) {
     title: event.target.title.value,
     desc: event.target.desc.value,
     owner: event.target.owner.value,
-    type: event.target.type.value || listTypes[0].id,
+    type: listTypes[0].id,
   };
   cardList.push(newTaskObject);
   formSetup()
@@ -330,4 +328,3 @@ function formSetup(){
 
 formSetup()
 drawAllCards()
-console.log('Finished JS');
